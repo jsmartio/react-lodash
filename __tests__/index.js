@@ -1,11 +1,13 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import Enzyme, { shallow } from 'enzyme'
 import Adapter from 'enzyme-adapter-react-16'
-// Testing different styles of import
+
+// Also here we Test different styles of import
 import { Truncate, UpperCase } from '../lib'
 import Map from '../lib/Map'
 import IsEqual from '../lib/IsEqual'
+
+import Enzyme, { shallow } from 'enzyme'
 
 Enzyme.configure({ adapter: new Adapter() })
 
